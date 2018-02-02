@@ -65,7 +65,9 @@ def over?(board)
 end
 
 def winner(board)
-     won?(board)
+  matrix =   won?(board)
+ return matrix
+
   # if won?(board) != false
   #   matrix = won?(board)
   #   if matrix[0] == "O"
