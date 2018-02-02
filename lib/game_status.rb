@@ -71,13 +71,4 @@ def winner(board)
  return board[matrix[0]]
  end
 
-  # if won?(board) != false
-  #   matrix = won?(board)
-  #   if matrix[0] == "O"
-  #     return "O"
-  #   end
-  #   if matrix[0] == "X"
-  #     return "X"
-  #   end
-  # end
 end
