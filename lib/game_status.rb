@@ -33,3 +33,7 @@ def full?(board)
   end
   return total
 end
+
+def draw?(board)
+
+end  
