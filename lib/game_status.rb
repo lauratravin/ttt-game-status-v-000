@@ -71,7 +71,7 @@ def winner(board)
     if matrix[0] == "0"
       puts "O"
     else
-      puts "O"
+      puts "X"
     end
 
   end
