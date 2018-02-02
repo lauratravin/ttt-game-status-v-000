@@ -70,9 +70,9 @@ def winner(board)
     matrix = won?(board)
     if matrix[0] == "O"
       return "O"
-    else
+    end
+    if matrix[0] == "X"
       return "X"
     end
-
   end
 end
