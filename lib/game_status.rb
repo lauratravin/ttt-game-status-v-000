@@ -67,7 +67,7 @@ end
 def winner(board)
 
   if won?(board) != false
-    matrix = valorwon?(board)
+    matrix = won?(board)
     if matrix[0] == "O"
       puts "O"
     else
