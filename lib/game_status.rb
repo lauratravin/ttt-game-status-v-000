@@ -55,8 +55,10 @@ def over?(board)
   # return false
   if won?(board)
     return true
-  end
-  if draw?(board) == true
+  elsif  draw?(board) == true
    return true
+ else
+    return false 
   end
+
 end
