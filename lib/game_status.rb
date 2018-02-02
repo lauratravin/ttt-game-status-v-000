@@ -28,6 +28,8 @@ def won?(board)
 end
 
 def full(board)
-  board.full? do |value|
+  full = board.full? do |value|
     value == " "
+  end
+  return full
 end
