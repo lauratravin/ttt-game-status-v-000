@@ -29,7 +29,7 @@ end
 
 def full(board)
   total = board.full? do |value|
-    value == " "
+    value == "X" || value == "X"
   end
   return total
 end
