@@ -65,14 +65,14 @@ def over?(board)
 end
 
 def winner(board)
-matrix = []
-  if won?(board) != false
-    matrix = won?(board)
-    if matrix[0] == "O"
-      return "O"
-    end
-    if matrix[0] == "X"
-      return "X"
-    end
-  end
+     won?(board)
+  # if won?(board) != false
+  #   matrix = won?(board)
+  #   if matrix[0] == "O"
+  #     return "O"
+  #   end
+  #   if matrix[0] == "X"
+  #     return "X"
+  #   end
+  # end
 end
