@@ -66,7 +66,7 @@ end
 
 def winner(board)
   matrix =   won?(board)
- return matrix
+ return board[matrix[0]]
 
   # if won?(board) != false
   #   matrix = won?(board)
