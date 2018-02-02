@@ -28,7 +28,7 @@ def won?(board)
 end
 
 def full(board)
-  total = board.full? do |value|
+  total = board.all? do |value|
     value == "X" || value == "X"
   end
   return total
