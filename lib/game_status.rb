@@ -47,4 +47,6 @@ end
 
 def over?(board)
   if wond?(board) == true || draw?(board)
+    return true
+  end
 end
