@@ -24,6 +24,9 @@ def won?(board)
        return combwin
      end
   end
-
   return false
 end
+
+def full(board)
+  
+end  
