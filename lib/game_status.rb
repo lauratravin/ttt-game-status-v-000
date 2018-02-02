@@ -43,7 +43,7 @@ def draw?(board)
       return false
     else
       return false
-    end  
+    end
 end
 
 def over?(board)
@@ -65,4 +65,14 @@ def over?(board)
 end
 
 def winner(board)
+
+  if won?(board) != false
+    matrix = valorwon?(board)
+    if matrix[0] == "0"
+      puts "O"
+    else
+      puts "O"
+    end
+
+  end
 end
